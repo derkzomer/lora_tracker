@@ -1,0 +1,1 @@
+create table transmission (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, s_t INT(11), ms_t INT(3), s_r INT(11), ms_r INT(3), rssi INT(5), snr FLOAT, freqErr INT(5));
