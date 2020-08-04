@@ -15,18 +15,18 @@ var recordTransmission = function(data, callback){
 	console.log(data)
 
 	d = [
-		data['arg0'],
-		data['arg1'],
-		data['arg2'],
-		data['arg3'],
-		data['arg4'],
-		data['arg5'],
-		data['arg6'],
-		data['arg7'],
-		data['arg8'],
-		data['arg9'],
-		data['arg10'],
-		data['arg11'],
+		data['arg_0'],
+		data['arg_1'],
+		data['arg_2'],
+		data['arg_3'],
+		data['arg_4'],
+		data['arg_5'],
+		data['arg_6'],
+		data['arg_7'],
+		data['arg_8'],
+		data['arg_9'],
+		data['arg_10'],
+		data['arg_11'],
 	]
 
 	console.log(d)
