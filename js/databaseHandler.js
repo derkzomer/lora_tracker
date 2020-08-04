@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 
 var recordTransmission = function(data, callback){
 
-	var sql = "INSERT INTO test_transmissions (uuid,unix_epoch,millis,repeat_signal,ts) VALUES (?,?,?,?,NOW())"
+	var sql = "INSERT INTO test_transmissions (uuid,unix_epoch,millis,repeat_signal,ts) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,NOW())"
 
 	console.log(data)
 
@@ -18,7 +18,15 @@ var recordTransmission = function(data, callback){
 		data['arg0'],
 		data['arg1'],
 		data['arg2'],
-		data['arg3']
+		data['arg3'],
+		data['arg4'],
+		data['arg5'],
+		data['arg6'],
+		data['arg7'],
+		data['arg8'],
+		data['arg9'],
+		data['arg10'],
+		data['arg11'],
 	]
 
 	console.log(d)
